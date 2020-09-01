@@ -2,13 +2,12 @@ body{
     background-image: url(./images/ignasi_pattern_s.png);
 }
 
+.container {
+    margin-top: 200px;
+    margin-left;: 250px
+}
 
 .HeadAM {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
 } 
-
-.container {
-
-    padding-top: 100px;
-}
