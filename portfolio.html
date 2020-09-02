@@ -8,16 +8,20 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Same as the index.html sheet, you need to provide CSS links to your code in order to use their styling -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap"
         rel="stylesheet" />
-
+<!-- Recommended to make a new specficic CSS style sheet per page. You can reuse other CSS sheets to ensure consistency, but make sure SPECIFIC CSS link goes underneath to overwrite any needed changes. -->
     <link rel="stylesheet" href="./assets/portfolio.css" />
 </head>
 
+
+<!-- Consitent navbar to use across all the pages. Copied over -->
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="./index.html">
         <h1 class="HeadAM"> Long Huynh </h1>
@@ -59,10 +63,11 @@
     </div>
 </nav>
 
+<!--Once again make sure to use appropriate classes to ensure BootStrap styling. Fix semantic HTML to help specify the portion the code is focusing -->
 <body>
     <section id="Portfolio-main">
         <div class="container">
-            <div class="title">
+            <summary class="title">
                 <h3>Portfolio Page</h3>
                 <p>
                     Welcome to my portfolio page! I am learning to become a fullstack
@@ -72,10 +77,10 @@
                     motivations I have and the focus of my future projects! Thank you
                     for your time in checking me out!
                 </p>
-            </div>
+            </summary>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <content class="card text-center">
                         <img src="./assets/images/Doan.png" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">My Church</h5>
@@ -86,10 +91,10 @@
                                 navigate it as the world progresses!
                             </p>
                         </div>
-                    </div>
+                    </content>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <content class="card text-center">
                         <img src="./assets/images/Sunset.jpg" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">My Family</h5>
@@ -100,10 +105,10 @@
                                 and their passions!
                             </p>
                         </div>
-                    </div>
+                    </content>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <content class="card text-center">
                         <img src="./assets/images/Friends.png" id="BrainP" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">My Passion</h5>
@@ -115,12 +120,12 @@
                                 well.
                             </p>
                         </div>
-                    </div>
+                    </content>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <content class="card text-center">
                         <img src="./assets/images/348x348.jpg" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">Text</h5>
@@ -131,10 +136,10 @@
                                 temporibus et nihil maiores inventore aperiam qui?
                             </p>
                         </div>
-                    </div>
+                    </content>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <content class="card text-center">
                         <img src="./assets/images/348x348.jpg" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">Text</h5>
@@ -145,7 +150,7 @@
                                 doloremque quibusdam labore itaque impedit nobis ad dolore?
                             </p>
                         </div>
-                    </div>
+                    </content>
                 </div>
             </div>
         </div>
